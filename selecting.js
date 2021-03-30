@@ -20,3 +20,11 @@ document.querySelector('p')
 document.querySelector('#banner')
 <img id=​"banner" src=​"https:​/​/​images.unsplash.com/​photo-1563281577-a7be47e20db9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" alt>​
 document.querySelector('.square')
+
+ // Iterating using document.querySelectorAll
+
+const links = document.querySelectorAll('p a');
+
+for(let link of links){
+    console.log(link.href)
+}
