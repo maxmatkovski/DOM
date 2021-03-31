@@ -4,6 +4,12 @@ for(let link of allLinks){
     link.innerText = 'I AM A LINK!!!'
 }
 
+// CE 52
+
+const doneTodos = document.querySelectorAll('.done');
+
+const checkbox = document.querySelector('#scales');
+
 
 // Overwriting an HTML element using JavaScript // CE 53
 
